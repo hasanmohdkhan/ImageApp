@@ -92,7 +92,7 @@ class ImageSearchFragment : Fragment() {
                     }
                     adapterImage.submitList(state.List)
                     adapterImage.notifyDataSetChanged()
-                    recyclerView.smoothScrollToPosition(list.size - state.List.size)
+                   // recyclerView.smoothScrollToPosition(list.size - state.List.size)
                     Log.d("UI","\n\n  ${list.size}  ad  : ")
 
                 }
